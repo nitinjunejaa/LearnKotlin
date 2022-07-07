@@ -12,12 +12,12 @@ fun functionName(): Unit{
     println("This is just a normal print statement")
 }
 
-fun timeThree(x: Int): Int {
+fun timeThree(x: Int): Int {                 // This is block body function
     val result = x*3
     return result
 }
 
-fun timesthree(y:Int) = y *3
+fun timesthree(y:Int) = y *3                 // This is Expression body function
 
 fun timeFour(n:Int): Int{
     val output = n * 4
@@ -25,4 +25,5 @@ fun timeFour(n:Int): Int{
 }
 
 fun timesFour(j:Int) = j*4
+
 
