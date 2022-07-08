@@ -18,11 +18,11 @@ fun main(){
 
     stringArr[2] = "Your Parents"
 
-    println(stringArr[2])
+    println(stringArr[2])  // To print any one element of an array
 
     println(stringArr.size)
 
-    println(stringArr.contentToString())
+    println(stringArr.contentToString()) // This is used to print all the elements of an array
 
     val arr: Array<Int> = arrayOf(1, 2, 3, 4)
 
