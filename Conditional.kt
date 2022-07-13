@@ -1,13 +1,11 @@
-fun main() {
-    var a = 10
-    var b = 11
+fun main() {    // This is a expression body demonstration.
+    val a = 10
+    val b = 11
 
-    val maxValue: Int
-
-    if(a > b) {
-        maxValue = a
+    val maxValue: Int = if (a > b) {
+        a
     } else {
-        maxValue = b
+        b
     }
     println(maxValue)
 }
