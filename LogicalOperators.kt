@@ -30,4 +30,9 @@ fun main() {            // The result of a logical operator will be a boolean re
         else -> println("Range not found")
     }
 
+    val num2 = 12           // Here if else block is used to print same result as the upper in block
+    if(num2 >=10 && num2 <= 20) {
+        println("The number lies between 10 and 20")
+    }
+
 }
