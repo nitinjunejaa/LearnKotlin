@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 fun main(){
     var thisArr: Array<Char> = arrayOf('n', 'i', 't', 'i', 'n')
 
